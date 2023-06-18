@@ -197,13 +197,13 @@
 </html>
 
 <script>
-$("#myinput")。keyup(function() {
-    var val = $.trim(this。value);
+$("#myinput").keyup(function() {
+    var val = $.trim(this.value);
     if (val === "")
-        $('.images img')。show();
+        $('.images img').show();
     else {
-        $('.images img')。hide();
-        $(".images img[alt*=" + val + " i]")。show();
+        $('.images img').hide();
+        $(".images img[alt*=" + val + " i]").show();
     }
 });
 </script>
